@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write Your Thoughts</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap" rel="stylesheet" />
+</head>
+<body>
+    
+    <div class="container">
+        <div>
+            <p class="title">Write Your Thoughts</p>
+            <hr>
+        </div>
+        <div class="content">
+            <h1>Write something about the below picture in English</h1>
+            <p class="about">
+                This page loads a random picture on each refresh. Below the picture there is a text box in which you can write your 
+                thoughts about the image. The textbox becomes green when you have written 100 words. At that point you can either 
+                continue writing if you are enjoying or load a new picture and write again.
+            </p>
+        </div>
+        <div>
+            <div class="loadBtn">
+                <button class="Btn" onclick="window.location.reload();">Load Next Picture</button>
+            </div>
+            <div>
+                <iframe src="https://feedium.app/pexels_write.php" frameborder="0" class="frame">
+                </iframe>
+            </div>
+            
+            <div class="loadBtn">
+                <button class="Btn" onclick="window.location.reload();">Load Next Picture</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
